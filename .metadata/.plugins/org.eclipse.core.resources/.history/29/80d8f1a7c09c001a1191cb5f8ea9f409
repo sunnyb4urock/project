@@ -1,0 +1,29 @@
+package strung;
+
+class Frog {
+	
+	private int id;
+	private String name;
+	
+	public Frog(String name, int id) {
+		this.id =id;
+		this.name= name;
+	}
+	
+	public String toString() {
+		return id +":" + name;
+		
+	}
+	
+}
+
+public class app {
+
+	public static void main(String[] args) {
+      Frog frog1 = new Frog("bob", 7);
+      
+      System.out.println(frog1);
+
+	}
+
+}

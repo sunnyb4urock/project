@@ -1,0 +1,17 @@
+package valuespass;
+
+class robot{
+	public void speak(String text) {
+		System.out.println(text);
+	}
+}
+
+public class app {
+
+	public static void main(String[] args) {
+
+       robot sam = new robot();
+       sam.speak ("my name is sam ");
+	}
+
+}

@@ -1,0 +1,25 @@
+package strong;
+
+public class ap {
+
+	public static void main(String[] args) {
+		// inefficient	
+		String  info = "";
+		info += "my name is :";
+		info += "BOBO and ";
+		info += "i am 22";
+		System.out.println(info);
+		
+		StringBuilder sb = new StringBuilder("");
+		sb.append("my name is ") ;
+		sb.append("koko and ");
+		sb.append("21 years old");
+		
+		System.out.println(sb.toString());
+		
+
+	}
+	
+	
+
+}

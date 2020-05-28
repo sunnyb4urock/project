@@ -1,0 +1,21 @@
+package construct;
+
+class Machine {
+	private String name;
+	public Machine() {
+ System.out.println("Constructors running :1 ");
+	}
+	
+	public Machine(String name) {
+		System.out.println("Seond constructor running : 2");
+	}
+}
+
+public class app {
+
+	public static void main(String[] args) {
+		Machine Machine1 = new Machine() ;
+        Machine Machine2 = new Machine("BOBO");
+	}
+
+}

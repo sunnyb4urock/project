@@ -1,0 +1,27 @@
+package stotic;
+
+class thing {
+	public String name;
+	public static String description;
+	
+	public void showName() {
+		System.out.println(description + ":" + name);
+	}
+}
+
+public class app {
+
+	public static void main(String[] args) {
+		thing.description = "i am a thing";
+		System.out.println(thing.description);
+
+		thing thing1 = new thing();
+		thing thing2= new thing ();
+		thing1.name = "bob";
+		thing2.name = "the builder";
+		
+		System.out.println(thing1.name);
+		System.out.println(thing2.name);
+	}
+
+}

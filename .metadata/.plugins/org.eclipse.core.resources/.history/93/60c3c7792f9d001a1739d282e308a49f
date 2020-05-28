@@ -1,0 +1,15 @@
+package access;
+
+public class plant {
+	
+	public String name;
+	
+	public  plant() {
+		
+		name = "freedy";
+		
+	}
+	
+	
+
+}

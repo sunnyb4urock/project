@@ -1,0 +1,11 @@
+package practinterfaes;
+
+
+public class machine {
+	private int id = 7;
+	
+	public void start() {
+		System.out.println("machine start");
+	}
+
+}

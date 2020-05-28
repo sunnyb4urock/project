@@ -1,0 +1,23 @@
+package valuespass;
+
+class robot{
+	public void speak(String text) {
+		System.out.println(text);
+	}
+	
+	public void jump(int height) {
+		System.out.println("jumping " +height +"meters");
+	}
+}
+
+public class app {
+
+	public static void main(String[] args) {
+
+       robot sam = new robot();
+       //passing parameters to method
+       sam.speak ("my name is sam ");
+       sam.jump(20);
+	}
+
+}

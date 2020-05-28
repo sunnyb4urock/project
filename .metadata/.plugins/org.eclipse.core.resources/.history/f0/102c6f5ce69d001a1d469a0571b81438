@@ -1,0 +1,12 @@
+package poly;
+
+public class Tree extends plant {
+
+	@Override
+	public void grow() {
+		System.out.println("Tree growing");
+	}
+	
+	
+
+}

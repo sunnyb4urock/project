@@ -1,0 +1,5 @@
+package practinterfaes;
+
+public interface Info {
+
+}

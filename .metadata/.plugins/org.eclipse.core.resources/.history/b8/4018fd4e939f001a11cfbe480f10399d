@@ -1,0 +1,20 @@
+package anonyms;
+
+class Machine {
+	public void start () {
+		System.out.println("Machine running..");
+	}
+}
+public class app {
+
+	public static void main(String[] args) {
+		Machine machine1 = new Machine () {
+			 public void start() {
+				System.out.println("Camera snapping");
+			}
+		};
+		machine1.start();
+		 
+	}
+
+}

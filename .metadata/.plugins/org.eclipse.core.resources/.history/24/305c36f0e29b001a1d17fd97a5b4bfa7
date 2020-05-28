@@ -1,0 +1,37 @@
+package setting;
+
+class frog {
+	int age ;
+	String name;
+	public void setName(String newName) {
+		name = newName;
+	}
+	public void setAge(int newAge) {
+		age = newAge;
+	}
+	
+	public String getName() {
+		return name;
+		
+	}
+	public int getAge() {
+		return age;
+	}
+}
+
+public class application {
+
+	public static void main(String[] args) {
+		frog frog1= new frog();
+		 // frog1.name = "Bertie";
+		//  frog1.age= 1 ;
+		
+		frog1.setAge(24);
+		frog1.setName("BOBO");
+		  
+		  System.out.println(frog1.getName());
+		  System.out.println(frog1.getAge());
+		  
+	}
+
+}

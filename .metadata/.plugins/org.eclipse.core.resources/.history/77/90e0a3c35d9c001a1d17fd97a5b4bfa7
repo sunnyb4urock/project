@@ -1,0 +1,44 @@
+package stotic;
+
+class thing {
+	public static int count = 0;
+	public final static int LUCKY_NUMBER = 7;
+	public String name;
+	public static String description;
+	 public int id;
+	
+	public void showName() {
+		System.out.println("object id" + id +","+description + ":" + name);
+	}
+	
+	public thing() {
+		count = id;
+		count++;
+	}
+	
+}
+
+public class app {
+
+	public static void main(String[] args) {
+		thing.description = "i am a thing";
+		System.out.println(thing.description);
+		
+		System.out.println("count before creation of objects : " + thing.count);
+
+		thing thing1 = new thing();
+		thing thing2= new thing ();
+		thing1.name = "bob";
+		thing2.name = "the builder";
+		
+		System.out.println("count After creation of objects : " + thing.count);
+		
+		//System.out.println(thing1.name);
+		//System.out.println(thing2.name);
+         thing1.showName();
+         thing2.showName();
+         
+         System.out.println(thing.LUCKY_NUMBER);
+	}
+
+}

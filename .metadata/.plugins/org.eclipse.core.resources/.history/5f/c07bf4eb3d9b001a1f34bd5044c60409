@@ -1,0 +1,31 @@
+package sunny;
+
+class Person{
+	
+	String name;
+	int age;
+	
+	void speak() {
+		System.out.println("my name is " + name);
+	}
+	int calculateYearsleftToRetirement() {
+	 int yearsLeft = 65- age;
+	  return yearsLeft ;
+	}
+}
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Person person1= new Person();
+		person1.name = "vibhu";
+		person1.age = 25;
+		
+		person1.speak();
+		int years = person1.calculateYearsleftToRetirement();
+		System.out.println("Years left to retirement :" + years);
+
+	}
+
+}

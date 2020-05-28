@@ -1,0 +1,3 @@
+module inheritence {
+	exports inheritence;
+}

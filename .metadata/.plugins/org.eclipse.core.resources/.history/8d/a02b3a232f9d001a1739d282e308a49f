@@ -1,0 +1,9 @@
+package access;
+
+public class plant {
+	
+	public String name;
+	name = "freedy";
+	
+
+}

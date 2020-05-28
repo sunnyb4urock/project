@@ -1,0 +1,8 @@
+package inherit;
+
+public class car extends machine{
+	
+	// machine is parent and car is derived from machine.
+	// car is identical to machine.
+
+}

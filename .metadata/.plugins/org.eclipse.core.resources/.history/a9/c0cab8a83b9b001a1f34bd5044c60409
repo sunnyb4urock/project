@@ -1,0 +1,25 @@
+package sunny;
+
+class Person{
+	
+	String name;
+	int age;
+	
+	void speak() {
+		System.out.println("my name is " + name);
+	}
+}
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Person person1= new Person();
+		person1.name = "vibhu";
+		person1.age = 25;
+		
+		person1.speak();
+
+	}
+
+}

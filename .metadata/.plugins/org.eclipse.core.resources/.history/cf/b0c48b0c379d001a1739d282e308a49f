@@ -1,0 +1,9 @@
+package access;
+
+public class oak extends plant {
+	
+	public oak() {
+		
+	}
+
+}

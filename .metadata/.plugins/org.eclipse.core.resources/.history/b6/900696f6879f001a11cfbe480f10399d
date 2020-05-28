@@ -1,0 +1,42 @@
+package generics;
+
+import java.util.ArrayList;
+
+class Maachine {
+	public String toString() {
+		return "im a maachine";
+	}
+	
+}
+
+class Caamera extends Maachine {
+	public String toString() {
+		return "im a caamera";
+	}
+	
+}
+
+
+public class GenericsCont {
+
+	public static void main(String[] args) {
+		ArrayList<Maachine> list = new ArrayList<Maachine> ();
+		ArrayList<Caamera> list2 = new ArrayList<Caamera> ();
+		list.add(new Maachine());
+		list2.add(new Caamera());
+		
+	showList(list2);
+	}
+		
+		private static void showList( ArrayList<Caamera> list2) {
+		
+				
+		for(Maachine value : list2 ) {
+		System.out.println(value);
+		
+		
+
+}
+}
+		}
+

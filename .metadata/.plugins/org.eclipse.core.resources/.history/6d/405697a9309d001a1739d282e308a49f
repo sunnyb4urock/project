@@ -1,0 +1,16 @@
+package access;
+
+public class plant {
+	
+	public String name;
+	public final static int ID = 7;
+	
+	public  plant() {
+		
+		name = "freedy";
+		
+	}
+	
+		
+
+}

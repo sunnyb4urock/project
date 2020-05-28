@@ -1,0 +1,22 @@
+package access;
+
+public class plant {
+	
+	public String name;
+	public final static int ID = 7;
+	private String type;
+	
+	//protected can be used in the same class and the child class, and in the same package.
+	
+	protected String size;
+	
+	public  plant() {
+		this.name = "freedy";
+		this.type = "plant";
+		this.size = "medium";
+		
+	}
+	
+		
+
+}

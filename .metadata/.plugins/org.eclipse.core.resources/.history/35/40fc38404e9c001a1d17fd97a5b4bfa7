@@ -1,0 +1,18 @@
+package practconst;
+
+class frog {
+	int age;
+	String name;
+	public frog() {
+		System.out.println("constructor 1 running");
+	}
+}
+public class app {
+
+	public static void main(String[] args) {
+		 frog frog1= new frog()
+;
+		 frog1.name= "koko";
+	}
+
+}

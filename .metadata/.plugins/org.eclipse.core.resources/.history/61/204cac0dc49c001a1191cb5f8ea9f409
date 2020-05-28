@@ -1,0 +1,12 @@
+package inherit;
+
+public class app {
+
+	public static void main(String[] args) {
+		machine mech1= new machine();
+		
+		mech1.start();
+		mech1.stop();
+	}
+
+}

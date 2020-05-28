@@ -1,0 +1,16 @@
+package construct;
+
+class Machine {
+	public Machine() {
+ System.out.println("Constructors running :");
+	}
+}
+
+public class app {
+
+	public static void main(String[] args) {
+		Machine Machine1 = new Machine() ;
+
+	}
+
+}

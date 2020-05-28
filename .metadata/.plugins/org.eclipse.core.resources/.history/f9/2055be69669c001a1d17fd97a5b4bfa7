@@ -1,0 +1,17 @@
+package strong;
+
+public class ap {
+
+	public static void main(String[] args) {
+		
+		String  info = "";
+		info = "my name is :";
+		info = "BOBO";
+		info = "i am 22";
+		System.out.println(info);
+
+	}
+	
+	
+
+}
